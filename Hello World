@@ -1,0 +1,38 @@
+#include <iostream>
+#include <string>
+using namespace std;
+struct MyStruct
+{
+	string str;
+};
+void cout1();
+int main()
+{
+	//cout << "Hello World!" << endl;
+	//char ch[13] = "Hello World!";
+	//cout << ch << endl;
+	/*for (int i = 0; i < sizeof(ch); i++)
+	{
+		cout << ch[i];
+	}
+	cout << endl;*/
+	/*char *ch1 = ch;
+	while (*ch1)
+	{
+		cout << *ch1;
+		ch1++;
+	}
+	cout << endl;*/
+	/*string str = "Hello World!";
+	cout << str << endl;*/
+	/*MyStruct Mystr;
+	Mystr.str = "Hello World!";
+	cout << Mystr.str << endl;*/
+	//cout1();
+	return 0;
+}
+
+void cout1()
+{
+	cout << "Hello World!" << endl;
+}
